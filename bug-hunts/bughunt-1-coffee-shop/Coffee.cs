@@ -2,7 +2,7 @@ public class Coffee : Drink
 {
     private int _shots;
 
-    public new string Size = "Large";
+    public string Size { get; set; } = "Large";
 
     public Coffee(string name, decimal price, int shots)
     {

@@ -3,7 +3,7 @@ public class Drink
     protected string Name;
     protected decimal Price;
 
-    public string Size = "Medium";
+    public virtual string Size { get; set; } = "Medium";
 
     public Drink(string name, decimal price)
     {
